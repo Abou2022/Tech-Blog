@@ -1,15 +1,30 @@
-<h1>Welcome back {{username}}</h1>
-<h2>All your blogs:</h2>
-<form action="" id="newBlog">
-    <input type="text" id="title" placeholder="title">
-    <textarea id="body" cols="30" rows="10"></textarea>
+<h1>Welcome Back {{username}}</h1>
+<hr>
+<br>
+<div>
+    <h2>All your blogs:</h2>
+</div>
+<br>
+<br>
+
+
+<form action="" id="newBlog" style="margin-left:20rem ;">
+    <input type="text" style="height: 5rem ; width:25%; font-size: large;" id="title" placeholder="Title">
+    <br>
+    <textarea id="body"
+        style="height: 15rem ; width:80%; background: rgb(162, 240, 143);  font-size: x-large; "></textarea>
+    <br>
     <button>Submit</button>
 </form>
-{{#each Blogs}}
+
+<div class="container justify-content-center">
+    {{#each Blogs}}
     <h3>{{title}}</h3>
-    <p>{{body}}</p>
+    <h5>{{body}}</h5>
+    <button>update</button>
     <button>delete</button>
     <hr>
-{{/each}}
+    {{/each}}
+</div>
 
 <script src="/js/profile.js"></script>
