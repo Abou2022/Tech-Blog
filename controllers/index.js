@@ -12,7 +12,7 @@ router.use("/",frontEnd)
 
 router.get("/showsessions",(req,res)=>{
     res.json(req.session)
-})
+}) 
 
 router.get("/setfaveanimal/:faveanimal",(req,res)=>{
     req.session.favAnimal = req.params.faveanimal;

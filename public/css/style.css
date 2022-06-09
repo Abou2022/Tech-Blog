@@ -34,14 +34,7 @@ header {
     color: black;
 }
 
-/* MAIN DASHBOARD LINK IN HEADING */
-.circle {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0.33;
-    z-index: -1;
-}
+
 
 /* MAIN FOOT STYLING ON ALL PAGES */
 footer {
@@ -54,42 +47,6 @@ footer {
     text-decoration: none;
     font-stretch: expanded;
 
-}
-
-/* REPORT CARD INPUT FIELD LOCATED ON DASHBAORD LINE 6 */
-.report {
-
-    padding: 40px;
-    margin: 40px;
-    
-}
-/* CARD BODY LOCATED ON ALL PAGES UNLESS OTHERWISE SPECIFIED */
-.card-body-home {
-    text-align: center;
-    color: white;
-    margin: auto;
-    background-color: #122955;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23122955' cx='50' cy='0' r='50'/%3E%3Cg fill='%2312315e' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23123968' cx='50' cy='100' r='50'/%3E%3Cg fill='%23114172' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310497b' cx='50' cy='200' r='50'/%3E%3Cg fill='%230d5284' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23085b8e' cx='50' cy='300' r='50'/%3E%3Cg fill='%23026397' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006ca0' cx='50' cy='400' r='50'/%3E%3Cg fill='%230076a9' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23007fb2' cx='50' cy='500' r='50'/%3E%3Cg fill='%230088bb' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230092c3' cx='50' cy='600' r='50'/%3E%3Cg fill='%23009bcc' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300a5d4' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300aedc' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300b8e3' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300c2eb' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300ccf2' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300d6f8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2309E0FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-}
-
-/* BACKGROUND FOR LOST PET CARD DISPLAY */
-.browse-card {
-    text-align: center;
-    color: white;
-    margin: auto;
-    background-color: #122955;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23122955' cx='50' cy='0' r='50'/%3E%3Cg fill='%2312315e' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23123968' cx='50' cy='100' r='50'/%3E%3Cg fill='%23114172' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310497b' cx='50' cy='200' r='50'/%3E%3Cg fill='%230d5284' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23085b8e' cx='50' cy='300' r='50'/%3E%3Cg fill='%23026397' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006ca0' cx='50' cy='400' r='50'/%3E%3Cg fill='%230076a9' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23007fb2' cx='50' cy='500' r='50'/%3E%3Cg fill='%230088bb' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230092c3' cx='50' cy='600' r='50'/%3E%3Cg fill='%23009bcc' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300a5d4' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300aedc' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300b8e3' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300c2eb' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300ccf2' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300d6f8' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2309E0FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-
-}
-/* DISPLAY SETTING FOR CARD IMAGE IN BROWSE HANDLEBAR */
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
 }
 
 
@@ -236,27 +193,26 @@ background-size: contain;
   .login-form .action button:nth-child(2):hover {
     background: #3c4d6d;
   }
-/* About styling */
-  .team-member > h3{
-    text-align: center;
-  }
 
 /* Flexbox stuff */
 @media screen and (min-width: 40em) {
-  .cards {
+  .cards
+  .mediaScreen
+   {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
   }
 
-  .card {
+  .card
+  .mediaScreen {
       flex: 0 1 calc(50% - 1em);
   }
-}
+  }
 
 @media screen and (min-width: 60em) {
-
-  .card {
-      flex: 0 1 calc(25% - 1em);
+  .card
+  .mediaScreen {
+    flex: 0 1 calc(25% - 1em);
   }
 }

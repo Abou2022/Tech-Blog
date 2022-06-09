@@ -1,12 +1,19 @@
-<h1>Home page</h1>
-<br>
-<br>
-<h4>
+
+<section class="container">
+    <h1>Home page</h1>
+    <br>
+    <br>
+    <h4>
     Welcome to your New Tech Blog
-</h4>
+    </h4>
 <br>
-{{#each blogs}}
-<h3>{{title}}</h3>
-<p>{{body}}</p>
-<hr>
-{{/each}}
+
+<div class="card bg-blue">
+    {{#each blogs}}
+    <h4 class="card-header bg-blue">{{title}}</h4> 
+    <div class="card-body">
+        <p class="card-text">{{body}}</p> 
+    </div>
+    {{/each}}
+</div>
+</section>
