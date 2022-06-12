@@ -7,14 +7,14 @@ async function editPostHandler(event) {
 
   const title = document.querySelector("#post-title").value.trim();
   const text = document
-    .querySelector('#post-text')
+    .querySelector("#post-text")
     .value.trim();
-console.log(title)
+console.log(text)
   const response = await fetch(`/api/blogs/${id}`, {
     method: "PUT",
     body: JSON.stringify({
       title,
-      text,
+      body:text,
     }),
     headers: { "Content-Type": "application/json" },
   });
