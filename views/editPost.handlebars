@@ -1,14 +1,14 @@
 
-<section class="container ">
-    <div class="container ">
+<section class="container p-5 m-5" style="background-color: rgb(158, 242, 158);">
+    <div class="card bg-blue ">
 
     <h2>Edit post</h2>
-    <form class="edit-post-form">
-        <div class="container justify-content-center">
+    <form class="edit-post-form"  style="background-color: rgb(158, 242, 158);">
+        <div class="container card bg-blue"  style="background-color: rgb(158, 242, 158);">
             <h5>Title:</h5>
-            <input  name="post-title" id="post-title" type="text" value="{{title}}" />
+            <input  name="post-title" id="post-title" type="text" value="{{title}}"  style="background-color: rgb(158, 242, 158);" />
             <h5>Text: </h5>
-            <textarea name="post-text" id="post-text">{{body}}</textarea>
+            <textarea name="post-text" style="background-color: rgb(158, 242, 158);" id="post-text">{{body}}</textarea>
         </div>
         <div class="button-wrapper">
             <button type="submit" class="save-post-btn">Save post</button>
