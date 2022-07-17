@@ -1,6 +1,4 @@
-
-#  Employer Tracker ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+# Employer Tracker ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
 
     ## Table of Contents:
 
@@ -14,7 +12,8 @@
     8.Question
     9. Email
 
- ## Description 
+## Description
+
 WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
 WHEN I click on the homepage option
@@ -48,48 +47,60 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
-## Installation 
- To run this application you need to install all dependencies by 
- ```sh
- npm install or npm i
- .env
- ```
+## Installation
+
+To run this application you need to install all dependencies by
+
+```sh
+npm install or npm i
+.env
+```
+
 You will need session_secret
 
- ## Usage 
+## Usage
 
- To run the program, use the command 
- ```sh
-node server.js or 
+To run the program, use the command
+
+```sh
+node server.js or
 npm run start
- ```
+```
 
- * Live demo
-  
-  ![Live_demo_of_SocialNetworkApi](./Assets/Untitled_%20May%2029,%202022%202_52%20AM.gif)
+- Live demo
+
+![Live_demo_of_TechBlog](./Assets/live_demo_tech_blog.gif)
 
 ## Contibution
+
 NA
 
- ## Test
+## Test
+
 This application doesn't have the test
 
 ## License
-MIT License
-Copyright MIT ![License:](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
+MIT License
+Copyright MIT ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 ## Github
+
 For Any question or request you can to on my [Github](https://github.com/Abou2022)
 
+## Page link
+
+https://afternoon-river-69859.herokuapp.com/
+
 ## Question
+
 For any question you can contact me by email. Thank you for any future contribution.
 
 ## Email
-For any question, you can eamil at : 
+
+For any question, you can eamil at :
 [email](mailto:syllabakary2002@gmail.com)
-    
