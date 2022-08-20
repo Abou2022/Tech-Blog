@@ -5,12 +5,10 @@
     1. Descriptions
     2. Installation
     3. Usage
-    4. Contribution
-    5. Test
-    6. License
-    7. Github
-    8.Question
-    9. Email
+    4. Test
+    5. License
+    6. Page link
+    7. Questions
 
 ## Description
 
@@ -71,10 +69,6 @@ npm run start
 
 ![Live_demo_of_TechBlog](./Assets/live_demo_tech_blog.gif)
 
-## Contibution
-
-NA
-
 ## Test
 
 This application doesn't have the test
@@ -88,19 +82,13 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Github
-
-For Any question or request you can to on my [Github](https://github.com/Abou2022)
-
 ## Page link
 
-https://afternoon-river-69859.herokuapp.com/
+- [tech-Blog](https://afternoon-river-69859.herokuapp.com)
 
-## Question
+## Questions
 
-For any question you can contact me by email. Thank you for any future contribution.
+For any question, you can email me or reach out via Github:
 
-## Email
-
-For any question, you can eamil at :
-[email](mailto:syllabakary2002@gmail.com)
+- [email](mailto:syllabakary2002@gmail.com)
+- [Github](https://github.com/Abou2022/Tech-Blog)
