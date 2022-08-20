@@ -92,3 +92,7 @@ For any question, you can email me or reach out via Github:
 
 - [email](mailto:syllabakary2002@gmail.com)
 - [Github](https://github.com/Abou2022/Tech-Blog)
+
+---
+
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
