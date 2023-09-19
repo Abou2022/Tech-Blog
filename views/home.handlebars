@@ -1,20 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Tech Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include your custom stylesheet here -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Add your navigation menu here -->
+      </nav>
+    </header>
 
-<section class="container">
-    <h1>Home page</h1>
-    <br>
-    <br>
-    <h4>
-    Welcome to your New Tech Blog
-    </h4>
-<br>
+    <section class="container">
+      <h1>Welcome to Your Tech Blog</h1>
+      <p>Stay updated with the latest in technology and innovation.</p>
 
-<div class="card bg-blue">
-    {{#each blogs}}
-    <h5 class="card-header">{{time}}</h5>
-    <h4 class="card-header bg-blue">{{title}}</h4> 
-    <div class="card-body">
-        <p class="card-text">{{body}}</p> 
-    </div>
-    {{/each}}
-</div>
-</section>
+      <div class="card bg-blue">
+        {{#each blogs}}
+          <article class="blog-post">
+            <h5 class="post-time">{{time}}</h5>
+            <h2 class="post-title">{{title}}</h2>
+            <div class="post-body">
+              <p>{{body}}</p>
+            </div>
+          </article>
+        {{/each}}
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Tech Blog</p>
+    </footer>
+  </body>
+</html>

@@ -1,32 +1,64 @@
-<h1>Welcome Back {{username}}</h1>
-<hr>
-<br>
-<div>
-    <h2>All your blogs:</h2>
-</div>
-<br>
-<br>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Profile - Your Tech Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include your custom stylesheet here -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Add your navigation menu here -->
+      </nav>
+    </header>
 
+    <section class="container">
+      <h1>Welcome Back, {{username}}</h1>
+      <hr />
 
-<form action="" id="newBlog" style="margin-left:20rem ;">
-    <input type="text" style="height: 5rem ; width:25%; font-size: large;" id="title" placeholder="Title">
-    <br>
-    <textarea id="body"
-        style="height: 15rem ; width:80%; background: rgb(162, 240, 143); font-size: x-large; "></textarea>
-    <br>
-    <button>Submit</button>
-</form>
+      <div>
+        <h2>All Your Blogs:</h2>
+      </div>
 
-<div class="container justify-content-center">
-    {{#each Blogs}}
-    <h3>{{title}}</h3>
-    {{!-- <h6>{{id}}</h6> --}}
-    <h5>{{body}}</h5>
+      <form action="" id="newBlog" style="margin-left:20rem;">
+        <input
+          type="text"
+          style="height: 5rem; width:25%; font-size: large;"
+          id="title"
+          placeholder="Title"
+        />
+        <br />
+        <textarea
+          id="body"
+          style="height: 15rem; width:80%; background: rgb(162, 240, 143); font-size: x-large;"
+        ></textarea>
+        <br />
+        <button>Submit</button>
+      </form>
 
-    <button><a href="/{{id}}">Update</a></button>
-    <button type="button" class="delete-post-btn" data-id="{{id}}">delete</button>
-    <hr>
-    {{/each}}
-</div>
+      <div class="container justify-content-center">
+        {{#each Blogs}}
+          <article class="blog-post">
+            <h3>{{title}}</h3>
+            <h5>{{body}}</h5>
 
-<script src="/js/profile.js"></script>
+            <button><a href="/{{id}}">Update</a></button>
+            <button
+              type="button"
+              class="delete-post-btn"
+              data-id="{{id}}"
+            >Delete</button>
+            <hr />
+          </article>
+        {{/each}}
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Tech Blog</p>
+    </footer>
+
+    <script src="/js/profile.js"></script>
+  </body>
+</html>
